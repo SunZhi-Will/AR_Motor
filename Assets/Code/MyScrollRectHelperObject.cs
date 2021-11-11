@@ -3,7 +3,7 @@ using UnityEditor;
 
 public class MyScrollRectHelperObject
 {
-    [MenuItem("GameObject/MyMenu/Do Something", priority = 0)]
+    /*[MenuItem("GameObject/MyMenu/Do Something", priority = 0)]
      static void Init(MenuCommand menuCommand) {
          // Create a custom game object
         GameObject go = new GameObject("Custom Game Object");
@@ -14,5 +14,5 @@ public class MyScrollRectHelperObject
         Selection.activeObject = go;
         
          
-     }
+     }*/
 }

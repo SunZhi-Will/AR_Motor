@@ -166,6 +166,7 @@ public class MyScrollRectHelper : MonoBehaviour, IBeginDragHandler, IEndDragHand
     /// </summary>
     void ListPageValueInit()
     {
+        
         pageIndex = (listItem.transform.childCount / pageCount) - 1;
         if (listItem != null && listItem.transform.childCount != 0)
         {
